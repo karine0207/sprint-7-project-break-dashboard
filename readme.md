@@ -103,7 +103,7 @@ Crea una página que tendrá lo siguiente:
   - El estado del clima.
   - Imagen y grados celsius de nuestra ciudad.
   - Precipitaciones, humedad y viento km/h.
-- La previsión por horas en el día en el que estamos. Con su hora, imagen y grados celsius. 
+- La previsión por horas en el día en el que estamos. Con su hora, imagen y grados celsius.
 - Dale estilo con CSS.
 
 ### ¿Qué usaremos?

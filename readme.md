@@ -90,7 +90,7 @@ Crea una página que tendrá lo siguiente:
 - `CreateElement`, `appedChild`, ... o directamente un template con `innerHTML`.
 - `LocalStorage` para generar persistencia y guardar esos datos.
 
-### PISTAS Y CONSEJOS
+### PISTAS Y  
 - Guarda el dato en el `localStorage` a la vez que se crea en el `DOM`
 - Cuando se carga la página el dato del `LocalStorage` deberá aparecer de inicio
 
@@ -100,7 +100,7 @@ Crea una página que tendrá lo siguiente:
 Crea una página que tendrá lo siguiente:
 - El tiempo en el momento en el que accedemos a la página con varios elementos:
   - Ciudad y Pais. Pondremos la ciudad y País en el que nos encontramos.
-  - El estado del clima.
+  - El estado del clima. f
   - Imagen y grados celsius de nuestra ciudad.
   - Precipitaciones, humedad y viento km/h.
 - La previsión por horas en el día en el que estamos. Con su hora, imagen y grados celsius.

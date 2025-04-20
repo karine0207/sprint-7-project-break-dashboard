@@ -34,7 +34,7 @@ function currentWeather(data) {
      <div class="container">
             <h1 class="name">Vitoria-Gasteiz /España</h1>
             <p  class="currentWeather">${data.current.condition.text}</p>
-            <h2 class="temp">13&#176</h2>
+            <h2 class="temp">${data.current.temp_c}</h2>
             <img class="weatherIcon" src="${data.current.condition.icon}" alt="" >
            
             <ul>

@@ -1,7 +1,216 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: grey;
-  display: flex;
-  height: 100vh;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+  color: #ffffff;
+  min-height: 100vh;
+  transition: background-image 1s ease-in-out;  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vh;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-color: black;
+  transition: background-image 1s ease-in-out;  
+ 
+}
+
+
+header {
+  text-align: center;
+  padding: 1rem;
+  
+  font-size: 2rem;
+}
+
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+
+section {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+#watch, #dateHtml {
+  font-size: 50px;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+#message {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+
+.password-section input, 
+.password-section button {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+}
+
+.password-section button {
+  background-color: #d3e1dd;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.password-section button:hover {
+  background-color: #c0cac7;
+}
+
+#result {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  word-break: break-all;
+}
+
+
+.links-section input, 
+.links-section button {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+}
+
+#btnAdd {
+  background-color:white;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btnAdd:hover {
+  background-color: white;
+}
+
+#linksDiv {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+#linksDiv li {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+#linksDiv a {
+  color: white;
+  text-decoration: none;
+}
+
+.btnDelete {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.weather-app {
+  text-align: center;
+}
+
+.weather-app .name {
+  font-size: 1.3rem;
+}
+
+.weather-app .temp {
+  font-size: 2rem;
+  color: white;
+}
+
+.weatherIcon {
+  width: 64px;
+  height: 64px;
+}
+
+.weather-app ul {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.weather-app li {
+  margin-bottom: 0.5rem;
+}
+
+
+.forestcast {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 1rem;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.forestcast ul {
+  list-style: none;
+  background: rgba(255, 255,)
+}
+h1 {
+ text-align: center; 
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end; 
+  padding: 1rem;
+  text-decoration: none;
+}
+
+a {
+  font-size: 35px;
+  text-decoration: none;
+}
+#btnRetorno {
+   
+    text-align: right;        
+    background: none;        
+    text-decoration: none;  
+    list-style: none;         
+    color: inherit;    
+    border: none;      
+  }
+
+    
+  

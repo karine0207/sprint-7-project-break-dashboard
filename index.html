@@ -7,13 +7,54 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <nav>
-        <a href="./time.html">reloj</a>
-        <a href="./links.html">links</a>
-        <a href="./password.html">contraseña</a>
-        <a href="./weather.html">temperatura</a>
-    </nav>
+
+      <main class="dashboard">
+        
+         <section class="reloj-section">
+          
+          <div id="watch"></div>
+          <div id="dateHtml"></div>
+          <div id="message"></div>
+        </section>
+    
+       
+        <section class="weather-section">
+          
+          <div class="weather-app"></div>
+          <div class="forestcast"></div>
+        </section>
+    
+        <section class="password-section">
+          <h2> Crea tu Contraseña Segura 🔒</h2>
+          <label for="charactersInput">Longitud (12-50):</label>
+          <input type="number" id="charactersInput" min="12" max="50">
+          <button id="btnPassGen">Generar</button>
+          <div id="result"></div>
+        </section>
+    
+        
+        <section class="links-section">
+          <h2>Añada tus enlaces de interes🔗</h2>
+          <input type="text" id="tagInput" placeholder="Nombre del link" />
+          <input type="text" id="urlInput" placeholder="URL" />
+          <button id="btnAdd">Añadir</button>
+          <ul id="linksDiv"></ul>
+        </section>
+      </main>
+      <footer>
+        <div>
+              <a href="./time.html">🕝</a>
+              <a href="./links.html">🔗</a>
+              <a href="./password.html">🔒</a>
+              <a href="./weather.html">🌦️</a>
+        </div>
+      </footer>
+      
     
     <script src="./js/script.js"></script>
+    <script src="./js/links.js"></script>
+    <script src="./js/password.js"></script>
+    <script src="./js/time.js"></script>
+    <script src="./js/weather.js"></script>
 </body>
 </html>
